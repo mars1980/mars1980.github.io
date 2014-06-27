@@ -1,6 +1,11 @@
 #container
 {width:60%;margin:0 auto;}
-body {font-family: 'Open Sans', sans-serif; text-align: justify;}
+body {font-family: 'Open Sans', sans-serif; }
 h1 {border-bottom: solid; border-bottom-color: gray	}
 h3 {color: gray;}
-ul li{font-size: 80%}
+ul li{font-size: 80%; margin-left:-40px;}
+ul {list-style-type: none;}
+h5 + blockquote {line-height: 90%; font-size: 80%}
+.halfLeft{width:35%; font-size: 80%;float: left;}
+.halfRight{width:30%; float: left; margin-left: 5%}
+.sched {clear: both;}
