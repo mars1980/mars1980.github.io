@@ -3,9 +3,13 @@
 body {font-family: 'Open Sans', sans-serif; }
 h1 {border-bottom: solid; border-bottom-color: gray	}
 h3 {color: gray;}
-ul li{font-size: 80%; margin-left:-40px;}
-ul {list-style-type: none;}
+ul li{font-size: 80%; margin-left:-40px; }
+ul {list-style-type: none; margin-top: -15px}
 h5 + blockquote {line-height: 90%; font-size: 80%}
-.halfLeft{width:35%; font-size: 80%;float: left;}
-.halfRight{width:30%; float: left; margin-left: 5%}
+.halfLeft{width:60%; font-size: 80%;float: left;}
+.halfRight{width:35%; float: left; margin-left: 5%; }
 .sched {clear: both;}
+a {text-decoration: none}
+a:link, a:active, a:visited, a:hover {color: #33CCCC}
+a:hover {color: #FF6666}
+footer {margin-top: 10%; border-top:solid gray; padding:2%;}
