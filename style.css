@@ -1,8 +1,7 @@
 
-body {font-family: 'Open Sans', sans-serif;}
+body {font-family: 'Open Sans', sans-serif;margin-top:15%;margin-bottom: 3%}
 #container{width:60%;margin:0 auto;}
 .header{border-radius:5px;background-color: #F0F5F5;padding-left: 3%; padding-right:3%;padding-bottom: .1%;  width:70%;margin: 0 auto;}
-.headerText{width:90%;margin-left: 8%; }
 h1,h2,h4 {border-radius:5px;background-color: #F0F5F5;padding-left: 1%;margin-top: .9%; padding-left: 3%}
 h3 {color: gray;}
 h1 {font-size: 250%; margin-bottom: 0px; color:rgb(255,255,255);background-color: #FFF}
@@ -19,6 +18,28 @@ h5 + blockquote {line-height: 90%; font-size: 80%}
 a {text-decoration: none}
 a:link, a:active, a:visited, a{color: #33CCCC}
 a:hover {color: #FF6666}
-footer {margin-top: 1%;  border-radius:5px;color:rgb(255,255,255);background-color: #33CCCC;;padding: 1.1%;font-size: 80%;}
 ::selection {background: #FF6666; color: #FFF }
 
+footer {
+color:rgb(255,255,255);
+background-color: #33CCCC;
+font-size: 80%;
+position: fixed;
+bottom: 0;
+width: 60%;
+text-align: center;
+margin: 0px auto !important;
+
+}
+
+.headerContainer
+{
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+  width: 60%;
+  border-bottom: solid;
+  border-width: 50%;
+  border-color: #33CCCC;
+}
