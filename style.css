@@ -1,9 +1,12 @@
-#container
-{width:60%;margin:0 auto;}
-body {font-family: 'Open Sans', sans-serif; margin-top:0px;}
-.header{border-radius:5px;background-color: #E3E8E8;padding-left: 3%; padding-right:3%;padding-bottom: .1%;  width:60%;margin: 0 auto;}
-h1 {border-bottom: solid; border-bottom-color: gray;}
+
+body {font-family: 'Open Sans', sans-serif;}
+#container{width:60%;margin:0 auto;}
+.header{border-radius:5px;background-color: #F0F5F5;padding-left: 3%; padding-right:3%;padding-bottom: .1%;  width:70%;margin: 0 auto;}
+.headerText{width:90%;margin-left: 8%; }
+h1,h2,h4 {border-radius:5px;background-color: #F0F5F5;padding-left: 1%;margin-top: .9%; padding-left: 3%}
 h3 {color: gray;}
+h1 {font-size: 250%; margin-bottom: 0px; color:rgb(255,255,255);background-color: #FFF}
+h2{max-width: 95%;margin: 1.5% auto ;}
 ul li{font-size: 80%; margin-left:-40px; }
 ul {list-style-type: none; margin-top: -15px}
 li em{color:#757878;}
@@ -11,8 +14,8 @@ h5 + blockquote {line-height: 90%; font-size: 80%}
 .halfLeft{width:60%; font-size: 80%;float: left;}
 .halfRight{width:35%; float: left; margin-left: 5%; }
 .middle li {padding-top:1%;}
-.sched {clear: both;}
+.middle {clear:both;}
+.sched {}
 a {text-decoration: none}
 a:link, a:active, a:visited, a:hover {color: #33CCCC}
-a:hover {color: #FF6666}
-footer {margin-top: 10%; border-top:solid gray; padding:2%;}
+footer {margin-top: 1%;  border-radius:5px;color:rgb(255,255,255);background-color: #33CCCC;;padding: 1.1%;font-size: 80%;}
