@@ -2,7 +2,7 @@
 body {font-family: 'Open Sans', sans-serif;margin-top:15%;margin-bottom: 3%}
 #container{width:60%;margin:0 auto;}
 h1,h2,h4 {border-radius:5px;background-color: #E1E5CC;padding-left: 1%;margin-top: .9%; padding-left: 3%}
-h3 {color: #69D3E8;}
+h3 {color: #4199B6;}
 h1 {font-size: 250%; margin-bottom: 0px; color:rgb(255,255,255);background-color: #FFF}
 h2{max-width: 95%;margin: 1.5% auto ;}
 ul li{font-size: 80%; margin-left:-40px; }
@@ -15,12 +15,15 @@ h5 + blockquote {line-height: 90%; font-size: 80%}
 .middle {clear:both;}
 .sched {}
 a {text-decoration: none}
-a:link, a:active, a:visited, a{color: #69D3E8}
+a:link, a:active, a:visited, a{color: #4199B6}
 a:hover {color: #F48630}
 ::selection {background: #FF6666; color: #FFF }
+.anchor{display: block; position: relative; top: -165px;}
+
 
 footer {
-background-color: #69D3E8; /*33cccc*/
+color: #fff;
+background-color: #4199B6; /*33cccc*/
 font-size: 80%;
 position: fixed;
 bottom: 0;
@@ -39,5 +42,5 @@ margin: 0px auto !important;
   width: 60%;
   border-bottom: solid;
   border-width: 50%;
-  border-color: #69D3E8;
+  border-color: #4199B6;
 }
