@@ -17,5 +17,6 @@ h5 + blockquote {line-height: 90%; font-size: 80%}
 .middle {clear:both;}
 .sched {}
 a {text-decoration: none}
-a:link, a:active, a:visited, a:hover {color: #33CCCC}
+a:link, a:active, a:visited, a{color: #33CCCC}
+a:hover {color: #FF6666}
 footer {margin-top: 1%;  border-radius:5px;color:rgb(255,255,255);background-color: #33CCCC;;padding: 1.1%;font-size: 80%;}
