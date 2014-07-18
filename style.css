@@ -13,7 +13,7 @@ h5 + blockquote {line-height: 90%; font-size: 80%}
 .halfRight{width:35%; float: left; margin-left: 5%; }
 .middle li {padding-top:1%;}
 .middle {clear:both;}
-.sched {}
+
 a {text-decoration: none}
 a:link, a:active, a:visited, a{color: #4199B6}
 a:hover {color: #F48630}
