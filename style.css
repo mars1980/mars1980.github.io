@@ -9,6 +9,9 @@ ul li{font-size: 80%; margin-left:-40px; }
 ul {list-style-type: none; margin-top: -15px}
 li em{color:#757878;}
 h5 + blockquote {line-height: 90%; font-size: 80%}
+h4+p {font-size: 100%}
+p{font-size: 80%}
+
 .halfLeft{width:60%; font-size: 80%;float: left;}
 .halfRight{width:35%; float: left; margin-left: 5%; }
 .middle li {padding-top:1%;}
