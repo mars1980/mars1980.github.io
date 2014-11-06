@@ -1,0 +1,69 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: rgb(250,250,250);
+font-family: 'Raleway', sans-serif;
+
+}
+
+header{
+max-height: 50%;
+height: 200px;
+background-color: black;
+position:relative;
+}
+
+nav {margin: 1% auto; width:60%; text-align: center;padding: 1%;z-index: 1; border-bottom:dotted;border-width: 1px}
+nav a {padding: 0 4%; z-index: 10; font-weight: 200;color: #553433;}
+a:link{text-decoration: none}
+a:visited{color:#609732;}
+a:hover{font-weight: 600 }
+
+
+h1{
+text-align: center;
+color:rgb(250,250,250);
+font-size: 500%;
+position:absolute;
+bottom:-20px;
+left:10%;
+}
+h2, h4, h6{padding:1%;}
+h6{font-weight: 100; font-size: 150%; }
+div > q {margin:0 auto;font-weight: 100; font-size: 300%;}
+
+article{width:60%;margin: 0 auto;margin-bottom: 3%}
+article, p {
+padding:1%;
+text-align: justify;
+width:90%;
+font-size: 90%;
+z-index: 1;
+}
+p > strong {color:rgb(255, 50,20);}
+
+li {list-style-type: square; max-width: 85% }
+.sublink li {list-style-type: none; padding:1%; display: inline}
+h6 + ul {margin-left: 5%}
+
+.section 
+{
+float:left;
+max-height:60%;
+margin:1%;
+}
+
+.quote{width:60%;margin: 0 auto;}
+.author{width:55%; margin: 0 auto 10px auto;text-align: right}
+.center{width:50%;margin: 0 auto;}
+
+img {max-width:100%;max-height:100%;} /*automagically shrink images to parent container*/
+figcaption{text-align: center}
+footer{position:relative; max-width: 350px;margin-left:auto;margin-right: auto;font-size: 80%;clear: both}
+footer span {position:absolute;bottom:-10;}
+
+
+
