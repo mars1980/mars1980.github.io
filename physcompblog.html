@@ -3,7 +3,7 @@
 <head>
 <title>Art B2011 Syllabus </title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div id="container">
@@ -18,10 +18,46 @@
 
 <h3>Class Blog: Announcments </h3>
 <!--//////////////////////////////////////////////////////////////////////////////////////////-->
+<!--POST 3-->
+<!--//////////////////////////////////////////////////////////////////////////////////////////-->
+<span class="anchor" id="post3"></span>
+<h4 >Nov 11 2014 - Setting up Git & Github</h4>
+<p><dfn>Git</dfn> is a version control system that will allow you track changes on a file that you have stored on your computer. It monitors files/folders that you specify and records any changes made to them, allowing you to store different versions of the same file.</p>
+<p><dfn>Github</dfn> is a social media platform where people can upload, share, edit, and collaborate on code and projects.</p>
+<p>Git and Github are <strong>not</strong> the same thing. </p>
+<h5>Intallation Instructions:</h5>
+<ol>
+	<li>Create an account on <a href="https://github.com" target="BLANK"> Github</a></li>
+	<li>Install <a href="http://git-scm.com" target="BLANK">Git</a> onto your computer</li>
+	<li>Configure:</li>
+		<ol>
+			<li>Open Terminal</li>
+			<li>Type: <code>git config -- global user.name &#147; YOUR NAME HERE &#148;</code> , hit enter.</li>
+			<li>Type: <code>git config -- global user.email &#147; YOUR EMAIL HERE &#148;</code> ,  hit enter.</li>
+		</ol>
+	<li>Create a Repository</li>
+		<ol>
+  			<li>In terminal, <a href="http://www.macworld.com/article/2042378/master-the-command-line-navigating-files-and-folders.html"> navigate</a> to the folder you want to track changes / create a repo in.</li>
+  			<li>Type: <code>git init</code>  This will initialize and empty repository in that folder</li>
+  			<li>Go to <a href="https://github.com" target="BLANK">Github.com</a>, create a repository (choose name SAME as repo, make public, do <strong>not</strong> initialize with a README)</li>
+  			<li>Link Github to your computer: on the next screen, copy the git command: <code>git remote add origin https://github.com/username/newRepo.git</code> from the Github page into terminal, hit enter. Git and Github should now be linked</li>
+
+		</ol>
+	<li>Add a file to the Repo (to be tracked for changes)</li>
+	<ol>
+		<li>Navigate to the respository (if not already there), type: <code>git add -A</code> . This will add all the files in that folder. If you haven't created any files, nothign will be added</li>
+		<li>Make changes to your document, navigate to the respository (if not already there), type: <code>git commit -m  &#147; something descriptive of the change you made&#148;</code></li>
+		<li>Type in terminal: <code>git push origin master</code>. This will push your changes to your master branch and you should be able to see the updates on Github.</li>
+	</ol>
+</ol>
+<p>As you are working you can repeat steps 5.1 - 5.3 to keep updating changes. Push a new version after every significant alteration to your code..especially code that works! You will only need to do steps 3.1 - 3.3 once, ever.  </p>
+<p>There are many many more terminal and git commands. You can Google a cheatsheet easily, or make your own.</p>
+<!--//////////////////////////////////////////////////////////////////////////////////////////-->
 <!--POST 2-->
 <!--//////////////////////////////////////////////////////////////////////////////////////////-->
-<div id="post2">
-	<h4>Final Project Proposals - Nov 4 2014</h4>
+<span class="anchor" id="post2"></span>
+<div>
+	<h4>Nov 4 2014 - Final Project Proposals</h4>
 	<p>You are at liberty to create any interactive project for the final, the only requirements are that the project include either microcontrollers or circuitry or both. The project should be interactive, ie a 'conversation' between actors -- input/process/repeat. 
 	<strong>Prior to starting the project, please create a blog post with a project proposal outlining the following:</strong>
 	</p>
