@@ -5,17 +5,23 @@
 <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
 <style type="text/css">
 * {margin: 0; padding:0;text-align: center}
-body {
-    background-image: url("meanstae.jpg");
-    background-color: #000;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+html {
+   background: url(meanstae.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	}
 h1{position: fixed; bottom:-40px;left:10px;font-family: 'Amatic SC', cursive;font-size: 10em;}
 h1:hover{color:rgba(0,0,0,.5);}
 h2{position: absolute; bottom:-5px;right:10px;font-family: 'Amatic SC', cursive;font-size: 3em;}
 h3{font-family: 'Amatic SC', cursive;font-size: 3em;bottom: -200px;right:10px;position: absolute;}
 p{font-family: 'Amatic SC', cursive;font-size: 2.5em;bottom: -250px;right:10px;position: absolute;width:250px;}
+
+@media screen and (max-device-width: 480px) {
+h3 { font-size: 1.2em;
+}
+
 </style>
 </head>
 
