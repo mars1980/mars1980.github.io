@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>Fitz + Moore</title>
-<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
 <style type="text/css">
-* {margin: 0; padding:0;text-align: center}
+* {margin: 0; padding:0;text-align: center;}
 html {
    background: url(meanstae.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -12,19 +12,22 @@ html {
   -o-background-size: cover;
   background-size: cover;
 	}
-h1{position: fixed; bottom:-40px;left:10px;font-family: 'Amatic SC', cursive;font-size: 10em;}
-h1:hover{color:rgba(0,0,0,.5);}
+h1{position: fixed; bottom:-40px;left:10px;font-family: 'Amatic SC', cursive;font-size: 10em;font-weight: 400}
+h1:hover{color:rgba(0,0,0,.5);font-weight: 700}
+h2:hover{text-decoration: underline;font-weight: 700}
 h2{position: absolute; bottom:-5px;right:10px;font-family: 'Amatic SC', cursive;font-size: 3em;}
 h3{font-family: 'Amatic SC', cursive;font-size: 3em;bottom: -200px;right:10px;position: absolute;}
 p{font-family: 'Amatic SC', cursive;font-size: 2.5em;bottom: -250px;right:10px;position: absolute;width:250px;}
+span:hover{font-weight: 700; color:rgba(255,0,0,1);}
+
 
 @media screen and (max-device-width: 480px) {
-h1{ font-size: 10em;
+h1{ font-size: 10em; font-weight:700;
 }
 
 
 @media screen and (max-device-width: 480px) {
-h3, h1,h2,p { position:static;width:50%; margin:0 auto;top:30%;font-size: 7em;
+h3, h1,h2,p { position:static;width:50%; margin:0 auto;top:30%;font-size: 7em;font-weight: 400
 }
 </style>
 </head>
@@ -33,7 +36,7 @@ h3, h1,h2,p { position:static;width:50%; margin:0 auto;top:30%;font-size: 7em;
 
 <h1>Oct 24th, 2015</h1>
 <h2>save the date please,  </h2>
-<p>cause Stacey an' Crys are getting hitched up in the catskills and want you to join us for this glorious day.</p>
+<p>cause Stacey an' Crys are getting hitched up in the catskills and want <span>you</span> to join us for this glorious day.</p>
 </body>
 
 </html>
