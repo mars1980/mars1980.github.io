@@ -19,7 +19,7 @@ position:relative;
 }
 
 nav {margin: 1% auto; width:80%; text-align: center;padding: 1%;z-index: 1; border-bottom:dotted;border-width: 1px}
-nav a {padding: 0 4%; z-index: 10; font-weight: 200;color: #553433;}
+nav a {padding: 0 3%; z-index: 10; font-weight: 200;color: #553433;}
 a:link{text-decoration: none; color:#609732}
 a:visited{color:#80AC5B;}
 a:hover{font-weight: 600; color:#668A49; }
@@ -45,6 +45,8 @@ width:90%;
 font-size: 90%;
 z-index: 1;
 }
+
+p {font-size: 100%;}
 
 article{width:80%;margin: 0 auto;margin-bottom: 3%; min-height: 300px;}
 
