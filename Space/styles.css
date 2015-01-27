@@ -69,8 +69,25 @@ margin:1%;
 
 img {max-width:100%;max-height:100%;} /*automagically shrink images to parent container*/
 figcaption{text-align: center}
-footer{position:relative; max-width: 350px;margin-left:auto;margin-right: auto;font-size: 80%;clear: both}
-footer span {position:absolute;bottom:-10;}
+/*footer{position:relative; max-width: 350px;margin-left:auto;margin-right: auto;font-size: 80%;clear: both; background-color: rgb(0,0,0) !important;}
+footer span {position:absolute;bottom:-10;}*/
+
+footer{font-size: 80%;clear: both; }
+footer span {position:absolute;bottom:-15;width: 100%; text-align: center;color: white; background-color: black; padding-top: 2%; min-height: 20px}
+
+
+/*----------------------MEDIA QUERIES---------------------------*/
+
+
+@media (max-width:499px){
+
+h1{font-size: 300%;bottom: -1px;}
+nav,h3,h4,h5,figcaption{font-size:88%;}
+h2	{font-weight: 300%}
+div > q{font-size: 130%}
+
+
+}
 
 
 
