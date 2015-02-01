@@ -57,6 +57,7 @@ strong {font-weight: bold; }
 li {list-style-type: square; max-width: 85% }
 .sublink li {list-style-type: none; padding:1%; display: inline}
 h6 + ul {margin-left: 5%; margin-top: 1%}
+ul  ul {margin-left: 5%;}
 
 .section 
 {
